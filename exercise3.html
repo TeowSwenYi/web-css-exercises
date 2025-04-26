@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Who Am I</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ffe6f0, #f0f8ff);
+            margin: 0;
+            padding: 40px;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #f63394;
+            text-align: center;
+        }
+
+        .info-box {
+            background-color: #ffffffcc;
+            border: 2px solid #add8e6;
+            border-radius: 12px;
+            padding: 25px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 6px 12px rgba(173, 216, 230, 0.3);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #007acc;
+        }
+
+        ul {
+            padding-left: 20px;
+            color: #004080;
+        }
+
+        .thank-you {
+            text-align: center;
+            margin-top: 20px;
+            color: #fe2419;
+            font-style: italic;
+            animation: fadeIn 2s ease-in-out;
+            animation-delay: 1s;
+            animation-fill-mode: both;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <h1>Who Am I</h1>
+
+    <div class="info-box">
+        <p><span class="label">Full Name:</span> <span style="color: #ff1493;">Teow Swen Yi</span></p>
+        <p><span class="label">Age:</span> 22</p>
+        <p><span class="label">Educational Background:</span></p>
+        <ul>
+            <li>Primary: SK Jalan Residensi</li>
+            <li>Secondary: SMK Convent Green Lane</li>
+            <li>STPM (Form 6): Kolej Tingkatan Enam Haji Zainul Abidin</li>
+            <li>Current (UniMAP): Bachelor New Media Communication With Honours – Year 2</li>
+        </ul>
+    </div>
+
+    <p class="thank-you">Thanks for reading! 💖</p>
+
+</body>
+</html>
